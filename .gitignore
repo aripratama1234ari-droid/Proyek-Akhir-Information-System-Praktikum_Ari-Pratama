@@ -1,0 +1,13 @@
+@"
+.env
+.env.*
+!.env.example
+config.local.php
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+vendor/
+node_modules/
+"@ | Set-Content .gitignore
